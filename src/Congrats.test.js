@@ -35,3 +35,9 @@ test('renders non-empty congrats message when `success` prop is true',()=>{
     const message=findByTestAttr(wrapper,'congrats-message');
     expect(message.text().length).not.toBe(0)
 })
+
+
+//tech--
+//--html,node.js,css
+//-mysql
+//--aws beanstalk
