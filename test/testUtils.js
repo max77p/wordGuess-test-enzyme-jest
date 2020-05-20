@@ -18,5 +18,6 @@ export const checkProp = (component, conformingProps) => {
     "prop",
     component.name
   );
+
   expect(propError).toBeUndefined();
 };
